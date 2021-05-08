@@ -1,0 +1,115 @@
+.App {
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to right, 
+    #fa709a 0%, 
+    #fee140 100%
+  );
+  text-align: center;
+}
+
+.search-form {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar {
+  width: 50%;
+  border: none;
+  padding: 10px;
+}
+
+.search-button {
+  background: lightskyblue;
+  border: none;
+  padding: 10px 20px;
+  color: #fa709a, 
+  ;
+}
+
+.recipes{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+ 
+.wrapper {
+  margin-right: auto; /* 1 */
+  margin-left:  auto; /* 1 */
+
+  max-width: 700px; /* 2 */
+
+  padding-right: 10px; /* 3 */
+  padding-left:  10px; /* 3 */
+}
+
+.Cardholder{
+  
+    min-height: 50vh;
+    background-image: linear-gradient(
+      to right, 
+      #8e70fa 0%, 
+      #fee140 100%
+    );
+    text-align: center;
+  
+}
+
+.div-par{
+  justify-content: space-around;
+  padding-right: 10px; /* 3 */
+  padding-left:  10px; /* 3 */
+
+  max-width: 50px;
+
+  margin-right: auto; /* 1 */
+  margin-left:  auto; /* 1 */
+}
+
+.div-black{
+  background-color: #282c34
+}
+
+.toggle{
+  background-color: #61dafb;
+  border: none;
+  height: 35px;
+}
